@@ -3,32 +3,35 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./../style.css">
     <title>NOSOTROS</title>
 </head>
 <body>
 
-    <header>
-        <h1>Tienda Muebles</h1>
-        <hr>
-        <nav>
-            <ul>
-                <li><a href="./../index.html">Inicio</a></li>
-                <li><a href="./nosotros.html">Nosotros</a></li>
-                <li><a href="./tienda.html">Tienda</a></li>
-                <li><a href="./blog.html">Blog</a></li>
-                <li><a href="./galeria.html">Galería</a></li>
-                <li><a href="./contacto.html">Contacto</a></li>
-            </ul>
-        </nav>
+    <header class="menu">
+        <h1>Tienda <span>Muebles</span></h1>
+        <div class="borde-w">
+            <nav class="container">
+                <ul>
+                    <li><a href="./../index.html">Inicio</a></li>
+                    <li><a href="./nosotros.html">Nosotros</a></li>
+                    <li><a href="./tienda.html">Tienda</a></li>
+                    <li><a href="./blog.html">Blog</a></li>
+                    <li><a href="./galeria.html">Galería</a></li>
+                    <li><a href="./contacto.html">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
 
     <main>
-        <h2>Sobre Nosotros</h2><br> 
-        <div>
+        <h2 class="nos-tit">Sobre Nosotros</h2><br> 
+        <div class="container nos-body">
             <img src="./../img/nosotros.jpg" alt="nosotros">
-            <div>
+            <div class="nos-texto">
                 <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores debitis quis consectetur animi beatae mollitia itaque ea dicta eos. Totam repellat temporibus autem aspernatur necessitatibus perspiciatis ea iste laborum ipsum!
+                <br><br>
                 </p>   
                 <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores debitis quis consectetur animi beatae mollitia itaque ea dicta eos. Totam repellat temporibus autem aspernatur necessitatibus perspiciatis ea iste laborum ipsum!
@@ -38,39 +41,38 @@
         </div>  
     </main>
 
-    <footer>
-        <hr>
-        <section>
-            <h2>Categorías</h2>
-                <ul type="none">
-                    <li><a href="#">Cocina</a></li>
-                    <li><a href="#">Oficina</a></li>
-                    <li><a href="#">Jardín</a></li>
-                    <li><a href="#">Cochera</a></li>
-                    <li><a href="#">Dormitorio</a></li>
-                </ul>
-        </section>
-        <section>
-            <h2>Sobre Nosotros</h2>
-                <ul type="none">
-                    <li><a href="#">Nuestra Historia</a></li>
-                    <li><a href="#">Misión, Visión y Valores</a></li>
-                    <li><a href="#">Carreras</a></li>
-                    <li><a href="#">Políticas de Privacidad</a></li>
-                    <li><a href="#">Términos del Servicio</a></li>
-                </ul>
-        </section>
-        <section>
-            <h2>Soporte</h2>
-                <ul type="none">
-                    <li><a href="#">Preguntas Frecuentes</a></li>
-                    <li><a href="#">Ayuda en Línea</a></li>
-                    <li><a href="#">Confianza y Seguridad</a></li>
-                </ul>
-        </section>
-
-        <div>Todos los derechos reservados. TiendasMuebles</div>
-
+    <footer class="borde-w">
+        <div class="container pie">
+            <section>
+                <h3>Categorías</h3>
+                    <ul>
+                        <li><a href="#">Cocina</a></li>
+                        <li><a href="#">Oficina</a></li>
+                        <li><a href="#">Jardín</a></li>
+                        <li><a href="#">Cochera</a></li>
+                        <li><a href="#">Dormitorio</a></li>
+                    </ul>
+            </section>
+            <section>
+                <h3>Sobre Nosotros</h3>
+                    <ul>
+                        <li><a href="#">Nuestra Historia</a></li>
+                        <li><a href="#">Misión, Visión y Valores</a></li>
+                        <li><a href="#">Carreras</a></li>
+                        <li><a href="#">Políticas de Privacidad</a></li>
+                        <li><a href="#">Términos del Servicio</a></li>
+                    </ul>
+            </section>
+            <section>
+                <h3>Soporte</h3>
+                    <ul>
+                        <li><a href="#">Preguntas Frecuentes</a></li>
+                        <li><a href="#">Ayuda en Línea</a></li>
+                        <li><a href="#">Confianza y Seguridad</a></li>
+                    </ul>
+            </section>
+        </div>  
+        <p>Todos los derechos reservados. TiendasMuebles</p>
     </footer>
 
 </body>

@@ -3,30 +3,32 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./../style.css">
     <title>CONTACTO</title>
 </head>
 <body>
 
-    <header>
-        <h1>Tienda Muebles</h1>
-        <hr>
-        <nav>
-            <ul>
-                <li><a href="./../index.html">Inicio</a></li>
-                <li><a href="./nosotros.html">Nosotros</a></li>
-                <li><a href="./tienda.html">Tienda</a></li>
-                <li><a href="./blog.html">Blog</a></li>
-                <li><a href="./galeria.html">Galería</a></li>
-                <li><a href="./contacto.html">Contacto</a></li>
-            </ul>
-        </nav>
+    <header class="menu">
+        <h1>Tienda <span>Muebles</span></h1>
+        <div class="borde-w">
+            <nav class="container">
+                <ul>
+                    <li><a href="./../index.html">Inicio</a></li>
+                    <li><a href="./nosotros.html">Nosotros</a></li>
+                    <li><a href="./tienda.html">Tienda</a></li>
+                    <li><a href="./blog.html">Blog</a></li>
+                    <li><a href="./galeria.html">Galería</a></li>
+                    <li><a href="./contacto.html">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
 
-    <h1>Contacto</h1>
+    <h2 class="contact-tit">Contacto</h2>
 
     <main>
         <form action="/contacto.html">
-        <div>
+        <div class="container formulario">
             <fieldset>
                 <legend>TUS DATOS</legend>
                 <div class="dato">
@@ -46,16 +48,16 @@
                     <input id="tel" type="tel" placeholder="Tu Teléfono" required />
                 </div>
                 <div class="dato">
-                    <label for="tel">Mensaje:</label>
+                    <label for="msj">Mensaje:</label>
                     <textarea rows="15" cols="50" required></textarea>
                 </div>
             </fieldset>
             <br><br>
         </div>
 
-        <div>
-            <fieldset>
-             <legend>PAÍS</legend>
+        <div class="container formulario">
+            <fieldset class="dato">
+             <legend >PAÍS</legend>
              <label for="pais">País</label>
              <select id="pais" name="destination">
                 <option value="" selected disabled>-- Seleccione --</option>
@@ -70,18 +72,18 @@
             <br><br>
         </div>
 
-        <div>
+        <div class="container formulario">
             <fieldset>
                 <legend>INFORMACIÓN EXTRA</legend>
-                <div>
+                <div class="dato">
                     <label for="infoextra">Cliente</label>
                     <input type="radio" id="cliente" name="extra" value="cliente">
                 </div>
-                <div>
+                <div class="dato">
                     <label for="infoextra">Proveedor</label>
                     <input type="radio" id="proveedor" name="extra" value="proveedor">
                 </div>
-                <div>
+                <div class="dato">
                     <label for="categorias">Categoría de Interés</label>
                     <input list="categorias" name="categorias" />
                     <datalist id="categorias">
@@ -96,45 +98,44 @@
             <br><br>
         </div>    
     
-        <div>  
-            <input type="submit" value="ENVIAR FORMULARIO"><br><br>
+        <div class="formulario">  
+            <button class="blog-boton boton_alinear">ENVIAR FORMULARIO</button>
         </div>
         </form>
     </main>
 
-     <footer>
-        <hr>
-        <section>
-            <h2>Categorías</h2>
-                <ul type="none">
-                    <li><a href="#">Cocina</a></li>
-                    <li><a href="#">Oficina</a></li>
-                    <li><a href="#">Jardín</a></li>
-                    <li><a href="#">Cochera</a></li>
-                    <li><a href="#">Dormitorio</a></li>
-                </ul>
-        </section>
-        <section>
-            <h2>Sobre Nosotros</h2>
-                <ul type="none">
-                    <li><a href="#">Nuestra Historia</a></li>
-                    <li><a href="#">Misión, Visión y Valores</a></li>
-                    <li><a href="#">Carreras</a></li>
-                    <li><a href="#">Políticas de Privacidad</a></li>
-                    <li><a href="#">Términos del Servicio</a></li>
-                </ul>
-        </section>
-        <section>
-            <h2>Soporte</h2>
-                <ul type="none">
-                    <li><a href="#">Preguntas Frecuentes</a></li>
-                    <li><a href="#">Ayuda en Línea</a></li>
-                    <li><a href="#">Confianza y Seguridad</a></li>
-                </ul>
-        </section>
-
-        <div>Todos los derechos reservados. TiendasMuebles</div>
-
+    <footer class="borde-w">
+        <div class="container pie">
+            <section>
+                <h3>Categorías</h3>
+                    <ul>
+                        <li><a href="#">Cocina</a></li>
+                        <li><a href="#">Oficina</a></li>
+                        <li><a href="#">Jardín</a></li>
+                        <li><a href="#">Cochera</a></li>
+                        <li><a href="#">Dormitorio</a></li>
+                    </ul>
+            </section>
+            <section>
+                <h3>Sobre Nosotros</h3>
+                    <ul>
+                        <li><a href="#">Nuestra Historia</a></li>
+                        <li><a href="#">Misión, Visión y Valores</a></li>
+                        <li><a href="#">Carreras</a></li>
+                        <li><a href="#">Políticas de Privacidad</a></li>
+                        <li><a href="#">Términos del Servicio</a></li>
+                    </ul>
+            </section>
+            <section>
+                <h3>Soporte</h3>
+                    <ul>
+                        <li><a href="#">Preguntas Frecuentes</a></li>
+                        <li><a href="#">Ayuda en Línea</a></li>
+                        <li><a href="#">Confianza y Seguridad</a></li>
+                    </ul>
+            </section>
+        </div>  
+        <p>Todos los derechos reservados. TiendasMuebles</p>
     </footer>
 
 </body>

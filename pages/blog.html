@@ -3,117 +3,118 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./../style.css">
     <title>BLOG</title>
 </head>
+
 <body>
 
-    
-    <header>
-        <h1>Tienda Muebles</h1>
-        <hr>
-        <nav>
-            <ul>
-                <li><a href="./../index.html">Inicio</a></li>
-                <li><a href="./nosotros.html">Nosotros</a></li>
-                <li><a href="./tienda.html">Tienda</a></li>
-                <li><a href="./blog.html">Blog</a></li>
-                <li><a href="./galeria.html">Galería</a></li>
-                <li><a href="./contacto.html">Contacto</a></li>
-            </ul>
-        </nav>
+    <header class="menu">
+        <h1>Tienda <span>Muebles</span></h1>
+        <div class="borde-w">
+            <nav class="container">
+                <ul>
+                    <li><a href="./../index.html">Inicio</a></li>
+                    <li><a href="./nosotros.html">Nosotros</a></li>
+                    <li><a href="./tienda.html">Tienda</a></li>
+                    <li><a href="./blog.html">Blog</a></li>
+                    <li><a href="./galeria.html">Galería</a></li>
+                    <li><a href="./contacto.html">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
 
     <main>
-        <h2>Nuestro Blog</h2>
-        <section>
-            <article>
-                <h3>Guía de Colores</h3>
-                <img src="./../img/nosotros.jpg" alt="blog">
-                <div>
-                    <p><b>Fecha:</b> 22 de Octubre de 2022</p>
-                    <p><b>Escrito por:</b> TiendaMuebles</p>  
-                </div>
-                <div>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium id numquam ducimus alias commodi eveniet, impedit amet! Quidem et tempore obcaecati vitae voluptatibus ipsam? Quae repudiandae sequi quas numquam nam. 
-                    </p>
-                    <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati provident beatae fugiat laudantium possimus harum, magnam architecto soluta doloribus itaque dolores amet maiores pariatur ea quisquam voluptatem numquam? In, nobis!                     
-                    </P>
-                </div>   
-                <button type="button">LEER</button><br><br>
-                <hr><br>
-            </article>
-            <article>
-                <h3>Guía de Colores</h3>
-                <img src="./../img/nosotros.jpg" alt="blog">
-                <div>
-                    <p><b>Fecha:</b> 22 de Octubre de 2022</p>
-                    <p><b>Escrito por:</b> TiendaMuebles</p>  
-                </div>
-                <div>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium id numquam ducimus alias commodi eveniet, impedit amet! Quidem et tempore obcaecati vitae voluptatibus ipsam? Quae repudiandae sequi quas numquam nam. 
-                    </p>
-                    <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati provident beatae fugiat laudantium possimus harum, magnam architecto soluta doloribus itaque dolores amet maiores pariatur ea quisquam voluptatem numquam? In, nobis!                     
-                    </P>
-                </div>   
-                <button type="button">LEER</button><br><br><br>
-            </article>
+        <h2 class="blog-tit">Nuestro Blog</h2>
 
-        </section>
+        <div class="container blog-body">
+            <section>
+                <article class="blog-arti">
+                    <h3 class="blog-subtit">Guía de Colores</h3>
+                    <img src="./../img/nosotros.jpg" alt="blog">
+                    <div class="blog-text blog-bold">
+                        <p >Fecha: 22 de Octubre de 2022</p>
+                        <p class="blog-color">Escrito por: TiendaMuebles</p>  
+                    </div>
+                    <div class="blog-text">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium id numquam ducimus alias commodi eveniet, impedit amet! Quidem et tempore obcaecati vitae voluptatibus ipsam? Quae repudiandae sequi quas numquam nam. 
+                        <br><br></p>
+                        <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati provident beatae fugiat laudantium possimus harum, magnam architecto soluta doloribus itaque dolores amet maiores pariatur ea quisquam voluptatem numquam? In, nobis!                     
+                        </P>
+                    </div>   
+                    <button class="blog-boton">LEER</button>
+                </article>
+                <article class="blog-arti blog_marg02 borde-w">
+                    <h3 class="blog-subtit">Guía de Colores</h3>
+                    <img src="./../img/nosotros.jpg" alt="blog">
+                    <div class="blog-text blog-bold">
+                        <p >Fecha: 22 de Octubre de 2022</p>
+                        <p class="blog-color">Escrito por: TiendaMuebles</p>  
+                    </div>
+                    <div class="blog-text">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium id numquam ducimus alias commodi eveniet, impedit amet! Quidem et tempore obcaecati vitae voluptatibus ipsam? Quae repudiandae sequi quas numquam nam. 
+                        <br><br></p>
+                        <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati provident beatae fugiat laudantium possimus harum, magnam architecto soluta doloribus itaque dolores amet maiores pariatur ea quisquam voluptatem numquam? In, nobis!                     
+                        </P>
+                    </div>   
+                    <button class="blog-boton">LEER</button>
+                </article>
+            </section>
 
-        <aside>
-            <h3>Otras Entradas de Blog</h3>
-            <ul>
-                <li>
-                    <a href="#">Guía de Colores</a>
-                </li>
-                <li>
-                    <a href="#">Nuevos Modelos</a>
-                </li>
-                <li>
-                    <a href="#">Guía para diseño de interiores</a>
-                </li>
-                <li>
-                    <a href="#">Guía para diseño de exteriores</a>
-                </li>
-            </ul>
-            <br>
-        </aside>
-        
+            <aside>
+                <h3>Otras Entradas de Blog</h3>
+                <ul>
+                    <li>
+                        <a href="#">Guía de Colores</a>
+                    </li>
+                    <li>
+                        <a href="#">Nuevos Modelos</a>
+                    </li>
+                    <li>
+                        <a href="#">Guía para diseño de interiores</a>
+                    </li>
+                    <li>
+                        <a href="#">Guía para diseño de exteriores</a>
+                    </li>
+                </ul>
+                <br>
+            </aside>
+        </div>
     </main>
 
-    <footer>
-        <hr>
-        <section>
-            <h2>Categorías</h2>
-                <ul type="none">
-                    <li><a href="#">Cocina</a></li>
-                    <li><a href="#">Oficina</a></li>
-                    <li><a href="#">Jardín</a></li>
-                    <li><a href="#">Cochera</a></li>
-                    <li><a href="#">Dormitorio</a></li>
-                </ul>
-        </section>
-        <section>
-            <h2>Sobre Nosotros</h2>
-                <ul type="none">
-                    <li><a href="#">Nuestra Historia</a></li>
-                    <li><a href="#">Misión, Visión y Valores</a></li>
-                    <li><a href="#">Carreras</a></li>
-                    <li><a href="#">Políticas de Privacidad</a></li>
-                    <li><a href="#">Términos del Servicio</a></li>
-                </ul>
-        </section>
-        <section>
-            <h2>Soporte</h2>
-                <ul type="none">
-                    <li><a href="#">Preguntas Frecuentes</a></li>
-                    <li><a href="#">Ayuda en Línea</a></li>
-                    <li><a href="#">Confianza y Seguridad</a></li>
-                </ul>
-        </section>
-
-        <div>Todos los derechos reservados. TiendasMuebles</div>
-
+    <footer class="borde-w">
+        <div class="container pie">
+            <section>
+                <h3>Categorías</h3>
+                    <ul>
+                        <li><a href="#">Cocina</a></li>
+                        <li><a href="#">Oficina</a></li>
+                        <li><a href="#">Jardín</a></li>
+                        <li><a href="#">Cochera</a></li>
+                        <li><a href="#">Dormitorio</a></li>
+                    </ul>
+            </section>
+            <section>
+                <h3>Sobre Nosotros</h3>
+                    <ul>
+                        <li><a href="#">Nuestra Historia</a></li>
+                        <li><a href="#">Misión, Visión y Valores</a></li>
+                        <li><a href="#">Carreras</a></li>
+                        <li><a href="#">Políticas de Privacidad</a></li>
+                        <li><a href="#">Términos del Servicio</a></li>
+                    </ul>
+            </section>
+            <section>
+                <h3>Soporte</h3>
+                    <ul>
+                        <li><a href="#">Preguntas Frecuentes</a></li>
+                        <li><a href="#">Ayuda en Línea</a></li>
+                        <li><a href="#">Confianza y Seguridad</a></li>
+                    </ul>
+            </section>
+        </div>  
+        <p>Todos los derechos reservados. TiendasMuebles</p>
     </footer>
 
 </body>
